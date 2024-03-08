@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Printy - A Small Printing Business</title>
+  <style>
+    /* Add your CSS code here */
+    /* Basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #f1f1f1;
+      padding: 10px 0;
+    }
+
+    .logo {
+      display: flex;
+      width: 100%;
+      height: 10px;
+      background-image: url("logo.png");
+      background-size: cover;
+    }
+
+
+    nav {
+      float: right;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Hero section styles */
+    .hero {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Services section styles */
+    .services {
+      padding: 50px 0;
+    }
+
+    .services h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .services p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 300px;
+      margin-bottom: 20px;
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .card img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    /* Portfolio section styles */
+    .portfolio {
+      padding: 50px 0;
+    }
+
+    .portfolio h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .portfolio p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+
+    /* Contact section styles */
+    .contact {
+      padding: 50px 0;
+    }
+
+    .contact h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .form-group textarea {
+      height: 100px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="musa8.jpeg" alt="Printy logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to SoniPrinty</h1>
+        <p>We are a small printing business that offers high-quality and affordable printing services for your personal
+          and professional needs.</p>
+        <a href="#" class="btn">2nkaragraphic printpy</a>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p>We offer a range of printing services, such as:</p>
+        <div class="cards">
+          <div class="card">
+            <img src="musa3.png" alt="Business cards">
+            <h3>Business Cards</h3>
+            <p>Make a lasting impression with our professional and customized business cards.</p>
+          </div>
+          <div class="card">
+            <img src="musa2.png" alt="Flyers">
+            <h3>Flyers</h3>
+            <p>Promote your events, products, or services with our eye-catching and effective flyers.</p>
+          </div>
+          <div class="card">
+            <img src="musa1.jpeg" alt="Posters">
+            <h3>Posters</h3>
+            <p>Decorate your walls or spread your message with our stunning and high-quality posters.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="container">
+        <h2>Our Portfolio</h2>
+        <p>Take a look at some of our previous work and see what we can do for you.</p>
+        <div class="gallery">
+          <img src="musa4.jpeg" alt="Portfolio 1">
+          <img src="musa5.jpeg" alt="Portfolio 2">
+          <img src="musa6.jpeg" alt="Portfolio 3">
+          <img src="musa9.jpeg" alt="Portfolio 4">
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us using the form below.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>© 2024 Printy. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    /* Add your JavaScript code here */
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Printy - A Small Printing Business</title>
+      <style>
+        /* Add your CSS code here */
+        /* Basic styles */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+
+        .container {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+
+        /* Header styles */
+        header {
+          background-color: #f1f1f1;
+          padding: 10px 0;
+        }
+
+        .logo {
+          display: flex;
+          width: 100%;
+          height: 10px;
+          background-image: url("logo.png");
+          background-size: cover;
+        }
+
+
+        nav {
+          float: right;
+        }
+
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        nav li {
+          display: inline-block;
+          margin-right: 20px;
+        }
+
+        nav a {
+          text-decoration: none;
+          color: #333;
+        }
+
+        /* Hero section styles */
+        .hero {
+          background-color: #f5f5f5;
+          text-align: center;
+          padding: 50px 0;
+        }
+
+        .hero h1 {
+          font-size: 2em;
+          margin-bottom: 10px;
+        }
+
+        .hero p {
+          font-size: 1.2em;
+          margin-bottom: 20px;
+        }
+
+        .btn {
+          background-color: #333;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        /* Services section styles */
+        .services {
+          padding: 50px 0;
+        }
+
+        .services h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .services p {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .cards {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+        }
+
+        .card {
+          width: 300px;
+          margin-bottom: 20px;
+          text-align: center;
+          border: 1px solid #ddd;
+          padding: 20px;
+          border-radius: 5px;
+        }
+
+        .card img {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .card h3 {
+          font-size: 1.2em;
+          margin-bottom: 10px;
+        }
+
+        /* Portfolio section styles */
+        .portfolio {
+          padding: 50px 0;
+        }
+
+        .portfolio h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .portfolio p {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .gallery {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+        }
+
+        .gallery img {
+          width: 200px;
+          margin-bottom: 10px;
+        }
+
+        /* Contact section styles */
+        .contact {
+          padding: 50px 0;
+        }
+
+        .contact h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .contact p {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .form-group {
+          margin-bottom: 15px;
+        }
+
+        .form-group label {
+          display: block;
+          margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+        }
+
+        .form-group textarea {
+          height: 100px;
+        }
+
+        /* Footer styles */
+        footer {
+          background-color: #f1f1f1;
+          text-align: center;
+          padding: 10px 0;
+        }
+      </style>
+    </head>
+
+    <body>
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="musa8.jpeg" alt="Printy logo">
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container">
+            <h1>Welcome to SoniPrinty</h1>
+            <p>We are a small printing business that offers high-quality and affordable printing services for your personal
+              and professional needs.</p>
+            <a href="#" class="btn">Get a Quote</a>
+          </div>
+        </section>
+        <section class="services">
+          <div class="container">
+            <h2>Our Services</h2>
+            <p>We offer a range of printing services, such as:</p>
+            <div class="cards">
+              <div class="card">
+                <img src="musa3.png" alt="Business cards">
+                <h3>Business Cards</h3>
+                <p>Make a lasting impression with our professional and customized business cards.</p>
+              </div>
+              <div class="card">
+                <img src="musa2.png" alt="Flyers">
+                <h3>Flyers</h3>
+                <p>Promote your events, products, or services with our eye-catching and effective flyers.</p>
+              </div>
+              <div class="card">
+                <img src="musa1.jpeg" alt="Posters">
+                <h3>Posters</h3>
+                <p>Decorate your walls or spread your message with our stunning and high-quality posters.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio">
+          <div class="container">
+            <h2>Our Portfolio</h2>
+            <p>Take a look at some of our previous work and see what we can do for you.</p>
+            <div class="gallery">
+              <img src="musa4.jpeg" alt="Portfolio 1">
+              <img src="musa10.jpeg" alt="Portfolio 2">
+              <img src="musa6.jpeg" alt="Portfolio 3">
+              <img src="musa9.jpeg" alt="Portfolio 4">
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, please feel free to contact us using the form below.</p>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="container">
+          <p>© 2024 Printy. 
+      </script>
+    <script>
+      const form = document.querySelector('form');
+      const nameInput = document.getElementById('name');
+      const emailInput = document.getElementById('email');
+      const messageInput = document.getElementById('message');
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const name = nameInput.value.trim();
+        const email = emailInput.value.trim();
+        const message = messageInput.value.trim();
+
+        let errorMessage = ''; // Initialize an empty error message string
+
+        if (name === '') {
+          errorMessage = 'Please enter your name.';
+        } else if (email === '') {
+          errorMessage = 'Please enter your email address.';
+        } else if (!isEmailValid(email)) {
+          errorMessage = 'Please enter a valid email address (e.g., johndoe@example.com).';
+        } else if (message === '') {
+          errorMessage = 'Please enter your message.';
+        }
+
+        if (errorMessage) {
+          alert(errorMessage); // Display the error message to the user
+          return;
+        }
+
+        // Form validation successful, process form submission here (e.g., send data to server)
+        console.log('Form submitted successfully!', { name, email, message });
+
+        // Clear form fields after successful submission
+        form.reset();
+      });
+
+      function isEmailValid(email) {
+        // Consider using a dedicated email validation library like validator.js or email-validator
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      }
+    </script>
+
+
+  </script>
+</body>
+
+</html>
